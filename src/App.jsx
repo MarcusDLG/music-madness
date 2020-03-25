@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
-import Page from './pages/Page'
-import Page2 from './pages/Page2'
-import Page3 from './pages/Page3'
+import Coheed from './pages/Coheed'
+import RGG from './pages/RGG'
+import Billie from './pages/Billie'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 
@@ -17,22 +17,22 @@ const App = () => {
               <Link to="/">Bands</Link>
             </li>
             <li>
-              <Link to="/1">Coheed and Cambria</Link>
+              <Link to="/Coheed">Coheed and Cambria</Link>
             </li>
             <li>
-              <Link to="/2">RDGLDGRN</Link>
+              <Link to="/RGG">RDGLDGRN</Link>
             </li>
             <li>
-              <Link to="/3">Billie Eilish</Link>
+              <Link to="/Billie">Billie Eilish</Link>
             </li>
           </ul>
         </nav>
       </header>
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
-        <Route exact path="/1" component={Page}></Route>
-        <Route exact path="/2" component={Page2}></Route>
-        <Route exact path="/3" component={Page3}></Route>
+        <Route exact path="/Coheed" component={Coheed}></Route>
+        <Route exact path="/RGG" component={RGG}></Route>
+        <Route exact path="/Billie" component={Billie}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>

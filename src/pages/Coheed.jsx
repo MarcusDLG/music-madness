@@ -5,7 +5,11 @@ const Page = () => {
   return (
     <section>
       <h1>Coheed and Cambria</h1>
-      <img className="bandPic" src={Coheed}></img>
+      <img
+        className="bandPic"
+        src={Coheed}
+        alt="Coheed and Cambria Backstage"
+      ></img>
       <h2>Latest Album</h2>
       <p>
         Recorded between January and March 2018, The Unheavenly Creatures

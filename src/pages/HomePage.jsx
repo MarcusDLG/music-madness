@@ -9,7 +9,11 @@ const HomePage = () => {
       <h1>My Favorite Bands</h1>
 
       <section className="bandCard">
-        <img className="bandPic" src={Coheed}></img>
+        <img
+          className="bandPic"
+          src={Coheed}
+          alt="Coheed and Cambria Backstage"
+        ></img>
         <section className="briefDescription">
           <h1>Coheed and Cambria</h1>
           <p>
@@ -24,7 +28,11 @@ const HomePage = () => {
         </section>
       </section>
       <section className="bandCard">
-        <img className="bandPic rdgldgrn" src={RDGLDGRN}></img>
+        <img
+          className="bandPic rdgldgrn"
+          src={RDGLDGRN}
+          alt="RedGoldGreen Banner"
+        ></img>
         <section className="briefDescription">
           <h1>RDGLDGRN</h1>
           <p>
@@ -38,7 +46,11 @@ const HomePage = () => {
         </section>
       </section>
       <section className="bandCard">
-        <img className="bandPic billie" src={Billie}></img>
+        <img
+          className="bandPic billie"
+          src={Billie}
+          alt="Billie Eilish Album Cover"
+        ></img>
         <section className="briefDescription">
           <h1>Billie Eilish</h1>
           <p>

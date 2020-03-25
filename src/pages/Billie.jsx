@@ -5,7 +5,11 @@ const Page3 = () => {
   return (
     <section>
       <h1>Billie Eilish</h1>
-      <img className="bandPic" src={Billie}></img>
+      <img
+        className="bandPic"
+        src={Billie}
+        alt="Billie Eilish Album Cover"
+      ></img>
       <h2>Latest Album</h2>
       <p>
         "When We All Fall Asleep, Where Do We Go?" is the debut studio album by

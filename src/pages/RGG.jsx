@@ -5,7 +5,7 @@ const Page2 = () => {
   return (
     <section>
       <h1>Coheed and Cambria</h1>
-      <img className="bandPic" src={RDGLDGRN}></img>
+      <img className="bandPic" src={RDGLDGRN} alt="RedGoldGreen Banner"></img>
       <h2>Latest Album</h2>
       <p>
         Their latest album Red Gold Green 3 was written and produced in Miami at
