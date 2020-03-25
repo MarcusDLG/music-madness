@@ -9,4 +9,60 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  padding: 0 5rem;
+}
+
+h1 {
+  color: #cf5300
+}
+
+h2 {
+  color: #cf5300;
+}
+
+.nav {
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  padding: 1rem;
+}
+
+img {
+  width: 40rem;
+  height: auto;
+}
+
+p {
+  width: 40rem;
+}
+
+.bandCard {
+  display: flex;
+  /* padding-left: 2rem; */
+  border: .5rem solid #cf5300;
+  border-radius: 1rem;
+  padding: 1rem
+}
+
+.bandPic {
+  height: 15rem;
+  width: 30rem;
+}
+
+/* .rdgldgrn {
+  width: 27rem
+} */
+
+.briefDescription {
+  padding: 0 1rem;
+}
+
+a {
+  color: #cf5300
 }
